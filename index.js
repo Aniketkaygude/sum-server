@@ -29,6 +29,7 @@ app.get("/todos",(req,res)=>{
     return res.json({
         todos:arr
     })
+    
 })
 
 app.listen(3000);
